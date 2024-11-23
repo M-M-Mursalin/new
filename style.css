@@ -10,3 +10,7 @@ button{
     transition: 0.5s;
     cursor: pointer;
 }
+img{
+  max-width: 50%;
+  width: 50%;
+}
