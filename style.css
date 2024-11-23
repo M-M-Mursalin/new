@@ -9,6 +9,10 @@ button{
     border-radius: 10px;
     transition: 0.5s;
     cursor: pointer;
+    font-size: 25px;
+}
+button:hover{
+  background: green;
 }
 img{
   max-width: 50%;
