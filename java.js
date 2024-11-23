@@ -1,6 +1,11 @@
-let promtNameinput = prompt('Please Enter Your Name Here');
-if(promtNameinput != 'Mahim'){
-    document.getElementById("text1").innerHTML = "Hello " + promtNameinput + " !How Are You Today?";
-} else{
-    document.getElementById("text").innerHTML = "Happy Birthday  " + promtNameinput + " !How Are You Today?";
+let upperValue = 6;
+let lowerValue = 1;
+let resultValue = Math.ceil(Math.random() * upperValue);
+
+console.log(resultValue);
+
+function rollDice(){
+    let randomNumber = Math.floor(Math.random() * 6) + 1;
+    let imgSource = 'img/' + randomNumber + '.png';
+    document.getElementById('ludo').src = imgSource;
 }
