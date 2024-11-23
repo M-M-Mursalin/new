@@ -6,6 +6,6 @@ console.log(resultValue);
 
 function rollDice(){
     let randomNumber = Math.floor(Math.random() * 6) + 1;
-    let imgSource = 'new/img/' + randomNumber + '.png';
+    let imgSource = 'img/' + randomNumber + '.png';
     document.getElementById('ludo').src = imgSource;
 }
